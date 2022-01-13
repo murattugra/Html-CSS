@@ -1,0 +1,31 @@
+.kirmizi{
+    color:rgb(182, 27, 27);
+    text-align: right;
+    background-color: rgb(184, 200, 231);
+}
+
+a{
+    text-decoration: none; /* alti cikzili olanlari kaldirir*/
+    font-weight: 400; /* bold- derinlik verir kelimelere*/
+}
+
+.kutu{
+
+    width: 300px;
+    height: 500px;
+    background-color: blueviolet;
+    border: 10px solid rebeccapurple;/* cerceve ekler*/
+    border-radius: 20px;/*cevceve koselerini kirpar*/
+    box-shadow: 5px 5px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
