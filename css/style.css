@@ -48,7 +48,7 @@ button{
     gap: 10px;
 }
 
-.header .span{
+.header h1 .span{
   width: 50px;
   height: 50px;
   border-radius: 25px ;
@@ -56,8 +56,16 @@ button{
 
 }
  
-.content h1{
+.content h1 span,
+.header span{
+    width:50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(190, 107, 107);
+}
 
+.content h1{
+  display: flex;
 }
  
 .content{
@@ -146,7 +154,6 @@ box-shadow: 3px 3px 8px rgb(184, 49, 49);
 .section .form-row{
   margin-bottom: 20px;
 }
-
 .footer{
   display: flex;
   justify-content: space-around;
