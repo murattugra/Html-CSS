@@ -1,25 +1,159 @@
-.kirmizi{
-    color:rgb(182, 27, 27);
-    text-align: right;
-    background-color: rgb(184, 200, 231);
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
 }
-
-a{
-    text-decoration: none; /* alti cikzili olanlari kaldirir*/
-    font-weight: 400; /* bold- derinlik verir kelimelere*/
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 50px;
 }
-
-.kutu{
-
-    width: 300px;
-    height: 500px;
-    background-color: blueviolet;
-    border: 10px solid rebeccapurple;/* cerceve ekler*/
-    border-radius: 20px;/*cevceve koselerini kirpar*/
-    box-shadow: 5px 5px 3px;
+a {
+  text-decoration: none;
+  font-weight: 900;
 }
 
 
+input,textarea {
+
+    border: 1px solid rgb(42, 173,9);
+    border-radius: 10px;
+    padding: 10 px;
+}
+
+button{
+    border: 1px solid rgb(30, 126, 7);
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: rgb(42, 173,9);
+    color: white;
+    font-size: 15px;
+    
+}
+
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(142, 198, 243);
+    padding: 10px 30px;
+    border-radius: 60px;
+}
+
+.header .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .span{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px ;
+  background-color: olive;
+
+}
+ 
+.content h1{
+
+}
+ 
+.content{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.content h2{
+  color: rgb(151, 3, 3);
+}
+
+.content .about{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    justify-content: center;
+
+}
+
+.content .about img{
+  width: 450px;
+  height: 600px;
+    border-radius: 250px;
+    border: solid rgb(84, 136, 250);
+    box-shadow: 3px 3px 8px rgb(184, 49, 49);
+}
+
+
+.content .description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.content .description p{
+  font-size: 17px;
+}
+
+.content .toolbar{
+  display: flex;
+  gap: 20px;
+}
+.content .toolbar a{
+
+    background-color: rgb(114, 163, 253);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 3px 3px 8px rgb(184, 49, 49);
+}
+
+.section{
+  width: 60%;
+}
+
+.section .card{
+  display: flex;
+  align-items: flex;
+border: 1px solid  rgb(114, 163, 253);
+border-radius: 20px;
+padding: 50px;
+margin-bottom: 50px;
+gap:40px;
+box-shadow: 3px 3px 8px rgb(184, 49, 49);
+
+}
+
+.section .card h2{
+  color: rgb(77, 112, 179);
+}
+.section .card .left{
+  flex: 3;
+}
+.section .card .right{
+  flex: 2;
+}
+
+.section .form-row{
+  margin-bottom: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px dotted gray;
+
+}
+ 
 
 
 

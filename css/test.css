@@ -1,0 +1,35 @@
+.kirmizi{
+    color: red;
+    text-align: right;
+    background-color: salmon;
+}
+kutu{
+    width: 30;
+    height: 500px;
+    background-color: blueviolet;
+    border: 10px solid rebeccapurple(84, 4, 116);
+    border-top-left-radius : 20px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;/* yana dogrumu asagiya dogrumu belirler*/
+    justify-content: space-evenly;/* satira nasil yayilacaklarini*/
+    align-items: center ;
+    background-color: cornflowerblue;
+    height: 500px;
+
+
+}
+
+
+.container div{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    padding: 20px;/* kutunun icindeksi bosluk*/
+    margin:20px;/* kutunun disindaki bosluk*/
+
+
+}
